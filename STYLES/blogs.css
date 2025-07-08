@@ -1,0 +1,16 @@
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+nav li:hover{
+    background-color: burlywood;
+}
+nav li a{
+    text-decoration: none;
+}
+footer {
+    font-style: italic;
+    text-align: center;
+    color: rgb(64, 46, 46);
+}
