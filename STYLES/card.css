@@ -1,0 +1,33 @@
+body{
+    max-width: 1275px;
+    background-color: cornsilk;
+    margin: 10px auto;
+}
+.card-container
+{display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    width: 200px;
+    border: 2px burlywood solid ;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 10px 10px 10px khaki;
+}
+.card img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.card:hover{
+    background-color: bisque;
+}
+.card button{
+border-radius: 5px;
+cursor: pointer;
+}
+.card-container button:hover{
+    background-color: rgb(50, 244, 73);
+}
